@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Inicio Sesión | JMPP</title>
+     <link rel="stylesheet" href="css/style.css">
+     <link  rel="icon" href="image/favicon.jpg" type="image/png"/>
+</head>
+
+<body>
+    
+     <div class="login-box">
+         <img src="image/logo.gif" class="avatar" alt="Avatar Image">
+         <h1>INICIO SESION</h1>
+         <form method="POST" action="includes/validar.php" autocomplete="off">
+            <!--USERNAME INPUT-->
+            <label for="username">Usuario</label>
+            <input type="text" name="usuario" id="usuario" placeholder="&#128272;Ingrese Usuario">
+            <!--PASSWORD INPUT-->
+            <label for="password">Password</label>
+            <input type="password" name="clave" id="password" placeholder="&#128272;Ingrese Password">
+            <input type="submit" name="inicio" id="inicio" value="Ingresar">
+            <a href="#">Recordar Contraseña?</a><br>
+            <a href="#">Registrarme?</a>
+        
+        </form>
+     </div>
+</body>
+</html>
